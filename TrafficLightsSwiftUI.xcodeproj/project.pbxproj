@@ -51,9 +51,9 @@
 		E252CE0627BB975200318B20 /* TrafficLightsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E252CE1627BB97C400318B20 /* Files */,
+				E252CE1527BB97B200318B20 /* Views */,
 				E252CE0727BB975200318B20 /* TrafficLightsSwiftUIApp.swift */,
-				E252CE0927BB975200318B20 /* ContentView.swift */,
-				E252CE0B27BB975400318B20 /* Assets.xcassets */,
 				E252CE0D27BB975400318B20 /* Preview Content */,
 			);
 			path = TrafficLightsSwiftUI;
@@ -65,6 +65,22 @@
 				E252CE0E27BB975400318B20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E252CE1527BB97B200318B20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E252CE0927BB975200318B20 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E252CE1627BB97C400318B20 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E252CE0B27BB975400318B20 /* Assets.xcassets */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
