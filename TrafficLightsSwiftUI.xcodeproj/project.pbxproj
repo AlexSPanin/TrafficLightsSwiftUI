@@ -38,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E213708027BBD44B009F392E /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				E252CE0927BB975200318B20 /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		E213708127BBD47A009F392E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E252CE0727BB975200318B20 /* TrafficLightsSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		E252CDFB27BB975200318B20 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +73,10 @@
 		E252CE0627BB975200318B20 /* TrafficLightsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E252CE1627BB97C400318B20 /* Files */,
+				E213708027BBD44B009F392E /* ContentView */,
 				E252CE1527BB97B200318B20 /* Views */,
-				E252CE0727BB975200318B20 /* TrafficLightsSwiftUIApp.swift */,
+				E213708127BBD47A009F392E /* App */,
+				E252CE1627BB97C400318B20 /* Files */,
 				E252CE0D27BB975400318B20 /* Preview Content */,
 			);
 			path = TrafficLightsSwiftUI;
@@ -76,7 +93,6 @@
 		E252CE1527BB97B200318B20 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E252CE0927BB975200318B20 /* ContentView.swift */,
 				E252CE1727BB98BD00318B20 /* ColorButton.swift */,
 				E2791F9627BB9A7100ED092F /* ColorCircle.swift */,
 				E213707E27BBB6D7009F392E /* LigthsCircle.swift */,

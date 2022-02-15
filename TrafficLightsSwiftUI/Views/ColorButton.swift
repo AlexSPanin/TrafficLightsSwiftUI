@@ -18,9 +18,13 @@ struct ColorButton: View {
                 .cornerRadius(20)
             
             Button(action: {
-                if countPressed == 3 { countPressed = 0 } else { countPressed += 1 }
-                
-            }) {
+                if countPressed == 3 {
+                    countPressed = 0
+                } else {
+                    countPressed += 1
+                }
+            })
+            {
                 Text( countPressed == 0 ? "Start" : "Next")
                     .font(.title)
                     .foregroundColor(Color.white)
